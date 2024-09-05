@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dataset.json"></script>
+    <script src="https://kit.fontawesome.com/9469f4ad40.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="headerblokje">
+        </div>
+        <div class="headerblokje">
+            <img class="imgheader" src="/logo/logo.png" alt="">
+        </div>
+        <div class="headerblokje">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </header>
+
+
+    <article class="productblok">
+        <section class="product">
+            <section class="imgblok">
+                <img src="/products/pet-zilver.png" alt="pet">
+            </section>
+            <section class="selectieblok">
+                <h1>Pet</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis animi doloribus, unde repellendus
+                    earum tempora! Vero dolor, distinctio natus aliquam esse perferendis fugit necessitatibus, eaque,
+                    fugiat veritatis delectus ad voluptatibus!</p>
+                
+                    <button onclick="document.getElementById('colours').src='/products/pet-blauw.png'">Blauw</button>
+                    <button onclick="document.getElementById('colours').src='/products/pet-zilver.png'">Zilver</button>
+                    <button onclick="document.getElementById('colours').src='/products/pet-goud.png'">Goud</button>
+                    <button onclick="document.getElementById('colours').src='/products/pet-rood.png'">Rood</button>
+
+
+            </section>
+        </section>
+    </article>
+    <article class="productblok">
+        <section class="product">
+            <section class="imgblok">
+                <img src="/products/pet-zilver.png" alt="pet">
+            </section>
+            <section class="selectieblok">
+                <h1>Pet</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis animi doloribus, unde repellendus
+                    earum tempora! Vero dolor, distinctio natus aliquam esse perferendis fugit necessitatibus, eaque,
+                    fugiat veritatis delectus ad voluptatibus!</p>
+                
+                <label for="colors">Select a color:</label>
+                <select name="colors" id="colors">
+                    <option value="pet-blauw">blauw</option>
+                    <option value="pet-goud">goud</option>
+                    <option value="pet-rood" >rood</option>
+                    <option value="pet-zilver">zilver</option>
+                </select>
+        </section>
+    </article>
+    <article class="productblok">
+        <section class="product">
+            <section class="imgblok">
+                <img src="/products/pet-zilver.png" alt="pet">
+            </section>
+            <section class="selectieblok">
+                <h1>Pet</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis animi doloribus, unde repellendus
+                    earum tempora! Vero dolor, distinctio natus aliquam esse perferendis fugit necessitatibus, eaque,
+                    fugiat veritatis delectus ad voluptatibus!</p>
+                
+                <label for="colors">Select a color:</label>
+                <select name="colors" id="colors">
+                    <option value="pet-blauw">blauw</option>
+                    <option value="pet-goud">goud</option>
+                    <option value="pet-rood" >rood</option>
+                    <option value="pet-zilver">zilver</option>
+                </select>
+        </section>
+    </article>
+
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
